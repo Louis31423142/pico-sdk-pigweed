@@ -26,5 +26,5 @@ jobs:
       - name: Upload results as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: test-results
-          path: ~/pigweed_tests/results.json
+          name: pigweed-test-results
+          path: home/louis/pigweed_tests/results.json
