@@ -2,19 +2,19 @@
     {
         "dut_file": "/home/louis/runner_build/pico-sdk-pigweed/build/test/pico_sha256_test/pico_sha256_test.elf",
         "buddy_file": "NULL",
-        "success_string": "",
-        "test_name": ""
+        "success_string": "Test passed\r\n",
+        "test_name": "pico_sha256_test"
     },
     {
         "dut_file": "/home/louis/runner_build/pico-sdk-pigweed/build/test/hardware_irq_test/hardware_irq_test.elf",
         "buddy_file": "NULL",
-        "success_string": "",
-        "test_name": ""
+        "success_string": "Module IRQ: Section I: Add handler1 default priority : Passed\r\n",
+        "test_name": "hardware_irq_test"
     },
     {
         "dut_file": "/home/louis/runner_build/pico-sdk-pigweed/build/test/cmsis_test/cmsis_test.elf",
         "buddy_file": "NULL",
-        "success_string": "",
-        "test_name": ""
+        "success_string": "PASSED\r\n",
+        "test_name": "cmsis_test"
     }
 ]
