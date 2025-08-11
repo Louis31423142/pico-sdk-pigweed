@@ -21,7 +21,7 @@ jobs:
           make -j4
           
       - name: Run Python script
-        run: python3 ~/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/runner_build/pico-sdk-pigweed/pigweed_tests.json
+        run: python3 ~/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests pico-sdk-pigweed/pigweed_tests.json
 
       - name: Upload results as artifact
         uses: actions/upload-artifact@v4
