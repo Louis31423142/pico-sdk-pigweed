@@ -2,7 +2,7 @@
     {
         "dut_file": "/home/louis/runner_build/pico-sdk-pigweed/build/test/pico_sha256_test/pico_sha256_test.elf",
         "buddy_file": "NULL",
-        "success_string": "Test passed\r\n",
+        "success_string": "fail example",
         "test_name": "pico_sha256_test"
     },
     {
