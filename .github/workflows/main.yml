@@ -2,7 +2,7 @@ name: Pigweed runner
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   run-python-on-selfhosted:
