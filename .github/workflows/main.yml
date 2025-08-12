@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pigweed-test-results
-          path: /home/louis/pigweed_tests/results.json
+          path: ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests/results.json
