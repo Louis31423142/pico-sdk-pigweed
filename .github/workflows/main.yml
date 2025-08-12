@@ -25,7 +25,7 @@ jobs:
         run: |
           cd ~/pigweed_tests
           git pull
-          python3 ~/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests pico-sdk-pigweed/pigweed_tests.json
+          python3 ~/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests.json
 
       - name: Upload results as artifact
         if: always()
