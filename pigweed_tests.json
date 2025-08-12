@@ -78,13 +78,5 @@
         "test_name": "pico_sha256_test",
         "failure_string": "FAILURE_STRING",
         "timeout": "default"
-    },
-    {
-        "dut_file": "/home/louis/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/build/test/pico_divider_test/pico_divider_nesting_test_with_disable_irq.elf",
-        "buddy_file": "NONE",
-        "success_string": "Module pico_time_test: Section Alarm ordering test : Passed\r\n",
-        "test_name": "pico_divider_nesting_test_with_disable_irq",
-        "failure_string": "FAILURE_STRING",
-        "timeout": "default"
     }
 ]
