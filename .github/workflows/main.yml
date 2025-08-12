@@ -13,9 +13,8 @@ jobs:
 
       - name: Build changes
         run: |
-          cd ~/runner_build/pico-sdk-pigweed
-          git pull
-          rm -rf build 
+          cd ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed
+          rm -rf build
           mkdir build 
           cd build 
           cmake .. -DPICO_BOARD=pigweed_dut -DPICO_SDK_PATH=~/pico/pico-sdk
