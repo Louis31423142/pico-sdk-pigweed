@@ -29,7 +29,7 @@ jobs:
 
       - name: Run Python script
         run: |
-          python3 ~/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests.json
+          python3 ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests.json
 
       - name: Upload results as artifact
         if: always()
