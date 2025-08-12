@@ -34,7 +34,7 @@
     {
         "dut_file": "/home/louis/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/build/test/pico_float_test/custom_double_funcs_test_pico.elf",
         "buddy_file": "NONE",
-        "success_string": "'PASSED\r\n",
+        "success_string": "PASSED\r\n",
         "test_name": "custom_double_funcs_test_pico",
         "failure_string": "FAILURE_STRING",
         "timeout": "default"
