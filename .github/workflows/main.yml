@@ -11,16 +11,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-#      - name: Build changes
-#        run: |
-#          cd ~/runner_build/pico-sdk-pigweed
-#          git pull
-#          rm -rf build 
-#          mkdir build 
-#          cd build 
-#          cmake .. -DPICO_BOARD=pigweed_dut -DPICO_SDK_PATH=~/pico/pico-sdk
-#          cd test
-#          make -j4
+      - name: Build changes
+        run: |
+          cd ~/runner_build/pico-sdk-pigweed
+          git pull
+          rm -rf build 
+          mkdir build 
+          cd build 
+          cmake .. -DPICO_BOARD=pigweed_dut -DPICO_SDK_PATH=~/pico/pico-sdk
+          cd test
+          make -j4
           
       - name: Run Python script
         run: |
