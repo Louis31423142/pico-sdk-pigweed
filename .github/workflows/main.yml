@@ -25,11 +25,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Louis31423142/pigweed_tests
+          path: pigweed_tests
 
       - name: Run Python script
         run: |
-          cd ~/pigweed_tests
-          git pull
           python3 ~/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests.json
 
       - name: Upload results as artifact
