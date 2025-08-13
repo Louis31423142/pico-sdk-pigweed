@@ -29,7 +29,9 @@ jobs:
           path: pigweed_tests
 
       - name: update pigweed tests
-        run: cd ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests
+        run: |
+          cd ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests
+          git pull
 
       - name: Run Python script
         run: |
